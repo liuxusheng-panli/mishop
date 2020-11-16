@@ -1,24 +1,22 @@
 # mall
 
-## Project setup
+## 技术栈
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
+vue2.6 + vuex + vue-router + sass + flex
 ```
 
-### Compiles and minifies for production
+### 项目运行
 ```
-yarn build
+git colone https://github.com/liuxusheng-panli/mishop.git
+
+cd MiMall
+
+npm install
+npm run serve
+```
+### 关于接口数据
+```
+http://mall-pre.springboot.cn
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
