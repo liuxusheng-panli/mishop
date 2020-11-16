@@ -11,7 +11,7 @@
                   <li v-for="(sub, j) in item" v-bind:key="j">
                     <a v-bind:href="sub ? '/#/product/' + sub.id : ''">
                       <img
-                        v-bind:src="sub ? sub.img : '/imgs/item-box-1.png'"
+                        v-bind:src="sub ? sub.img : './imgs/item-box-1.png'"
                         alt=""
                       />
                       {{ sub ? sub.name : "小米9" }}
@@ -46,7 +46,7 @@
         <swiper v-bind:options="swiperOption">
           <swiper-slide v-for="(item, index) in slideList" v-bind:key="index">
             <a v-bind:href="'/#/product/' + item.id"
-              ><img v-bind:src="item.img"
+              ><img v-bind:src="'.' + item.img"
             /></a>
           </swiper-slide>
           <!-- Optional controls -->
